@@ -27,7 +27,17 @@
 .pc_container .rightBox .welcomeBox .bgImg{ position: relative; width: 100%; height: 28vh; }
 .pc_container .welcomeBox .bgImg img{ position: absolute; height: 100%; right: 0; }
 
-.pc_container .bottomBoxarry{ position: relative; width: 100%; height: 12vh; border: 3px solid #000; border-top: 0; box-sizing: border-box; }
-.pc_container .bottomBoxarry span{ position: relative; display: block; width: calc(100% /4 ); height: 100%; background: #000;  }
-.pc_container .bottomBoxarry span p{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.9792vw; color: #fff; font-weight: 700; font-family: 'Oswald', sans-serif;}
-.pc_container .bottomBoxarry a:hover span{ background: #05F000;}
+.pc_container .bottomBoxarry{ position: relative; width: 100%; height: 12vh; border: 3px solid #000; border-top: 0; box-sizing: border-box; overflow: hidden;}
+.pc_container .bottomBoxarry a{ display: flex; width: 100%; height: 100%; }
+.pc_container .bottomBoxarry .workLeftbox{ position: relative; display: block; width: calc(100% / 4); height: 100%; background: #000;  }
+.pc_container .bottomBoxarry .workLeftbox p{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.9792vw; color: #fff; font-weight: 700; font-family: 'Oswald', sans-serif;}
+.workRightbox{ width: calc(100%/4*3); height: 100%; }
+.workRightbox .arrowBox{ position: relative; top: 50%; left: 3%; transform: translate(0, -50%); width: 14.6875vw; height: 80%;}
+.workRightbox .arrowBox .viewArrow{ position: absolute; top: 50%; left: 0; transform: translate(0, -50%); width: 100%;}
+.workRightbox .Arrowactive{ position: absolute; top: 50%; left: 3%; transform: translate(0, -50%); width: 100%; display: none;}
+.workRightbox p{ position: absolute; top: 45%; right: 0; transform: translate(-50%, -50%); font-size: 6.2500vw; color: #000;}
+
+.pc_container .bottomBoxarry a:hover .workLeftbox{ background: #05F000;}
+.pc_container .bottomBoxarry a:hover .Arrowactive{ display: block;}
+.pc_container .bottomBoxarry a:hover .viewArrow{ display: none;}
+.pc_container .bottomBoxarry a:hover .workRightbox p{ color: #05F000;}

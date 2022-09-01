@@ -63,13 +63,13 @@ return (
               <p>
               <Typewriter onInit={(typewriter)=> { 
                 typewriter 
-                .typeString("Web publisher.")
+                .typeString("I'm Web publisher")
                 .pauseFor(1000)
                 .deleteAll()
                 .typeString("but I...")
                 .pauseFor(1000)
                 .deleteAll()
-                .typeString("Front-end developer.")
+                .typeString("Front-end developer too!")
                 .start();
                 }}/>
                 </p>
@@ -89,9 +89,16 @@ return (
         
         <div className="bottomBoxarry">
           <Link to="./work">
-            <span>
+            <span className="workLeftbox">
               <p>VIEW MY<br/>WORKS</p>
             </span>
+            <div className="workRightbox">
+                <div className="arrowBox">
+                  <img className="viewArrow" alt="arrow" src="../img/arrow.svg"/>
+                  <img className="Arrowactive" alt="arrow" src="../img/arrowActive.svg"/>
+                </div>
+                <p>WEB POTRFOLIO</p>
+            </div>
           </Link>
         </div>
       </PC>
