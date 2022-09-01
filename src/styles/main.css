@@ -1,0 +1,33 @@
+
+/* mobile */
+.mobile_container .topBoxarray{ display: flex; width: 100%; box-sizing: border-box; }
+.mobile_container .leftBox{ position: relative; width: 60%; height: 41.0256vw; border: 3px solid #000; border-left: 0;} 
+.mobile_container .rightBox{ position: relative; width: 40%; height: 41.0256vw; border: 3px solid #000; border-left: 0; border-right: 0;  } 
+.mobile_container .rightBox p{ position: absolute; top: 10%; left: 50%; transform: translate(-50%, 0); font-weight: 700; font-size: 12.8205vw; line-height: 12.8205vw; }
+
+.mobile_container .textBox{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; height: 80%; border: 3px solid #000;}
+.mobile_container .textBox .boxDeco{ display: flex; }
+.mobile_container .textBox .boxDeco span{ width: 1.5385vw; height: 1.5385vw; border-radius: 20vw; background-color: #000; margin: 0.5128vw 0 0 0.5128vw;}
+.mobile_container .leftBox p{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 7.1795vw; }
+
+.mobile_container .welcomeBox { position: relative; width: 100%; height: 66.6667vw; padding-top: 19.2308vw; box-sizing: border-box;}
+.mobile_container .welcomeBox p{ position: absolute; top: 5%; left: 50%; transform: translate(-50%, 0); z-index: 1; font-size: 23.0769vw; font-weight: 700; }
+.mobile_container .welcomeBox .bgImg{ position: relative; width: 100%;  height: 47.4359vw; border-bottom: 3px solid #000;}
+.mobile_container .welcomeBox .bgImg img{ position: absolute; height: 100%; }
+
+/* pc */
+.pc_container .topBoxarray{ display: flex; width: 100%; box-sizing: border-box;}
+.pc_container .leftBox{ position: relative; width: calc(100%/3); height: 28vh; border: 3px solid #000;}
+.pc_container .leftBox .textBox{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; height: 80%; border: 3px solid #000; }
+.pc_container .textBox .boxDeco{ display: flex; }
+.pc_container .textBox .boxDeco span{ width: 0.5208vw; height: 0.5208vw; border-radius: 20vw; background-color: #000; margin: 0.5128vw 0 0 0.5128vw;}
+.pc_container .leftBox p{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2.5900vw;}
+.pc_container .rightBox { position: relative; width: calc(100%/3*2); height: 28vh; border: 3px solid #000; border-left: 0;}
+.pc_container .rightBox .welcomeBox p{ position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); z-index: 1; font-size: 10.4167vw; font-weight: 700; }
+.pc_container .rightBox .welcomeBox .bgImg{ position: relative; width: 100%; height: 28vh; }
+.pc_container .welcomeBox .bgImg img{ position: absolute; height: 100%; right: 0; }
+
+.pc_container .bottomBoxarry{ position: relative; width: 100%; height: 12vh; border: 3px solid #000; border-top: 0; box-sizing: border-box; }
+.pc_container .bottomBoxarry span{ position: relative; display: block; width: calc(100% /4 ); height: 100%; background: #000;  }
+.pc_container .bottomBoxarry span p{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.9792vw; color: #fff; font-weight: 700; font-family: 'Oswald', sans-serif;}
+.pc_container .bottomBoxarry a:hover span{ background: #05F000;}
