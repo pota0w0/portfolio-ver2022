@@ -21,10 +21,13 @@ return (
               <p>
               <Typewriter onInit={(typewriter)=> { 
                 typewriter 
-                .typeString("WELCOMES YOU")
+                .typeString("I'm Web publisher")
                 .pauseFor(1000)
                 .deleteAll()
-                .typeString("but I... dreaming of being a front-end developer.")
+                .typeString("but I...")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Front-end developer Too!")
                 .start();
                 }}/>
                 </p>
