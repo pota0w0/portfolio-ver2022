@@ -21,6 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage":"https://hahafolio.net/",
   "eslintConfig": {
     "extends": [
       "react-app",
