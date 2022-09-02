@@ -2,7 +2,7 @@ import React from "react"
 import { Mobile, PC } from "../components/layout/MediaQuery/MediaQuery.tsx"
 import { Link } from 'react-router-dom';
 import Tabmenu from "../components/menuTab/menuTab"
-import Typewriter from "typewriter-effect";
+import Typewriter from "../components/typewriter/typewriter"
 import SwiperMenu from "../components/swiper/swiper.jsx"
 import "../styles/main.css"
 
@@ -20,18 +20,8 @@ return (
                 <span></span>
               </div>
               <p>
-              <Typewriter onInit={(typewriter)=> { 
-                typewriter 
-                .typeString("I'm Web publisher")
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("but I...")
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("Front-end developer Too!")
-                .start();
-                }}/>
-                </p>
+                <Typewriter/>
+              </p>
             </div>
           </div>
           <div className="rightBox">
@@ -63,18 +53,8 @@ return (
                 <span></span>
               </div>
               <p>
-              <Typewriter onInit={(typewriter)=> { 
-                typewriter 
-                .typeString("I'm Web publisher")
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("but I...")
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("Front-end developer too!")
-                .start();
-                }}/>
-                </p>
+                <Typewriter/>
+              </p>
             </div>
           </div>
           <div className="rightBox">
