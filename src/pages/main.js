@@ -3,6 +3,7 @@ import { Mobile, PC } from "../components/layout/MediaQuery/MediaQuery.tsx"
 import { Link } from 'react-router-dom';
 import Tabmenu from "../components/menuTab/menuTab"
 import Typewriter from "typewriter-effect";
+import SwiperMenu from "../components/swiper/swiper.jsx"
 import "../styles/main.css"
 
 const Main = (props) => {
@@ -43,8 +44,9 @@ return (
            <img src="img/body_welcome.svg" />
           </div>
         </div>
-        
-        <Tabmenu/>
+        <div className="swiperMenu">
+          <SwiperMenu/>
+        </div>
 
         
       </Mobile>

@@ -15,6 +15,10 @@
 .mobile_container .welcomeBox .bgImg{ position: relative; width: 100%;  height: 47.4359vw; border-bottom: 3px solid #000;}
 .mobile_container .welcomeBox .bgImg img{ position: absolute; height: 100%; }
 
+.mobile_container .swiperMenu{ width: 100%; height: 117.9487vw; border-bottom: 3px solid #000;} 
+
+
+
 /* pc */
 .pc_container .topBoxarray{ display: flex; width: 100%; box-sizing: border-box;}
 .pc_container .leftBox{ position: relative; width: calc(100%/3); height: 28vh; border: 3px solid #000;}
