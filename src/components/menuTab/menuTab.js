@@ -26,7 +26,7 @@ export default class MenuTab extends React.Component{
 
     render(){
         return(
-        <div className="tabWrap">
+        <>
             <div className="tabArry">
             <ul className="tabs">
                 <li className={`${this.state.menu === 0? 'active': ''}`} onClick={() => this.changeMenu(0)}>ABOUT ME</li>
@@ -37,7 +37,7 @@ export default class MenuTab extends React.Component{
             <div className="contentArea">
             {menuList[this.state.menu]}
             </div>
-        </div>
+        </>
         )
     }
 }

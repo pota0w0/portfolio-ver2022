@@ -37,8 +37,19 @@ return (
         <div className="swiperMenu">
           <SwiperMenu/>
         </div>
-
-        
+        <div className="mobile_bottomBoxarry">
+          <Link to="./work">
+            <span className="mobile_workLeftbox">
+              <p>VIEW<br/>WORKS</p>
+            </span>
+            <div className="mobile_workRightbox">
+                <div className="mobile_arrowWrap">
+                  <img className="mobile_viewArrow" alt="arrow" src="../img/mobile_arrow.svg"/>
+                </div>
+                <p>POTR<br/>FOLIO</p>
+            </div>
+          </Link>
+        </div>
       </Mobile>
     </div>
 
@@ -66,9 +77,9 @@ return (
             </div>
           </div>
         </div>
-
-        <Tabmenu/>
-        
+        <div className="tabWrap">
+          <Tabmenu/>
+        </div>
         <div className="bottomBoxarry">
           <Link to="./work">
             <span className="workLeftbox">
