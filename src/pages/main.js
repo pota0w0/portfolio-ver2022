@@ -46,7 +46,7 @@ return (
                 <div className="mobile_arrowWrap">
                   <img className="mobile_viewArrow" alt="arrow" src="../img/mobile_arrow.svg"/>
                 </div>
-                <p>POTR<br/>FOLIO</p>
+                <p>PORT<br/>FOLIO</p>
             </div>
           </Link>
         </div>

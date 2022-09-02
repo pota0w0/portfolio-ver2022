@@ -28,7 +28,7 @@ export default function SwiperMenu() {
         className="SwiperTabArry"
         >
         <SwiperSlide className="SwiperTab"><p>ABOUT ME</p></SwiperSlide>
-        <SwiperSlide className="SwiperTab"><p>TECH SKIL</p></SwiperSlide>
+        <SwiperSlide className="SwiperTab"><p>TECH SKILL</p></SwiperSlide>
         <SwiperSlide className="SwiperTab"><p>AMD...</p></SwiperSlide>
       </Swiper>
       <Swiper

@@ -30,7 +30,7 @@ export default class MenuTab extends React.Component{
             <div className="tabArry">
             <ul className="tabs">
                 <li className={`${this.state.menu === 0? 'active': ''}`} onClick={() => this.changeMenu(0)}>ABOUT ME</li>
-                <li className={`${this.state.menu === 1? 'active': ''}`} onClick={() => this.changeMenu(1)}>TECH SKIL</li>
+                <li className={`${this.state.menu === 1? 'active': ''}`} onClick={() => this.changeMenu(1)}>TECH SKILL</li>
                 <li className={`${this.state.menu === 2? 'active': ''}`} onClick={() => this.changeMenu(2)}>AND...</li>
             </ul>
             </div>
