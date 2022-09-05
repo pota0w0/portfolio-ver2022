@@ -29,7 +29,7 @@ export default function SwiperMenu() {
         >
         <SwiperSlide className="SwiperTab"><p>ABOUT ME</p></SwiperSlide>
         <SwiperSlide className="SwiperTab"><p>TECH SKILL</p></SwiperSlide>
-        <SwiperSlide className="SwiperTab"><p>AMD...</p></SwiperSlide>
+        <SwiperSlide className="SwiperTab"><p>AND...</p></SwiperSlide>
       </Swiper>
       <Swiper
         loop={true}

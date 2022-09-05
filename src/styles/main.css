@@ -21,7 +21,7 @@
 .mobile_container .mobile_bottomBoxarry a{ display: flex; width: 100%; height: 100%; color: #000; overflow: hidden;}
 .mobile_container .mobile_bottomBoxarry .mobile_workLeftbox{ position: relative; width: calc(100%/3); height: 100%; background: #000;  }
 .mobile_container .mobile_bottomBoxarry .mobile_workLeftbox p{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 9.7436vw; font-weight: 700; color: #fff;}
-.mobile_bottomBoxarry .mobile_workRightbox{ position: relative; width: calc(100%/3*2); height: 100%;}
+.mobile_bottomBoxarry .mobile_workRightbox{ position: relative; width: calc(100%/3*2); height: 100%; border-bottom: 3px solid #000; box-sizing: border-box;}
 .mobile_bottomBoxarry .mobile_arrowWrap{ position: relative; top: 50%; left: 5%; width: 17.9487vw; height: 28.2051vw; transform: translate(0, -50%);}
 .mobile_bottomBoxarry .mobile_arrowWrap img{ position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 

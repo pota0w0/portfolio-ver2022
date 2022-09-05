@@ -1,0 +1,61 @@
+.contentArea{ position: relative;}
+
+/* mobile */
+
+/* git */
+@keyframes blink-effect {
+    50% {
+      color: #000;
+    }
+  }
+.More_Mobile_container .blink { animation: blink-effect 1s step-end infinite; color: #05F000; }
+.More_Mobile_container .m_gitImgWrap{ position: absolute; top: 0; left: 1%; width: 83.5897vw; height: 36.4103vw; }
+.More_Mobile_container .m_gitImg{ position: relative; width: 100%; height: 100%; }
+.More_Mobile_container .m_gitImg img{ position: absolute; top: 0; left: 0; width: 100%;}
+.More_Mobile_container .m_gitLink{ position: absolute; top: 55%; left: 50%; transform: translate(-50%,-50%); }
+.More_Mobile_container .m_gitLink a { display: block; transform: rotate( -12deg ); font-weight: 700; font-size: 6.1538vw; }
+
+/* hate */
+.More_Mobile_container .m_hateImgWrap{ position: absolute; top:50%; left: 25%; transform: translate(0,-50%); width: 28.7179vw; height: 25.3846vw;}
+.More_Mobile_container .m_hateImg{ position: relative; width: 100%; height: 100%;}
+.More_Mobile_container .m_hateImg img{ position: absolute; top: 0; left: 0; width: 100%;}
+
+/* mbti */
+.More_Mobile_container .m_mbtiImgWrap{ position: absolute; bottom: 10%; left: 5%; width: 36.4103vw; height: 28.9744vw;}
+.More_Mobile_container .m_mbtiImg{ position: relative; width: 100%; height: 100%;}
+.More_Mobile_container .m_mbtiImg img{ position: absolute; top: 0; left: 0; width: 100%;}
+
+/* pota */
+.More_Mobile_container .m_potaImgWrap{ position: absolute; bottom: 0; right: 0; width: 47.4359vw; height: 75.6410vw;}
+.More_Mobile_container .m_potaImg{ position: relative; width: 100%; height: 100%;}
+.More_Mobile_container .m_potaImg img{ position: absolute; top: 0; left: 0;  width: 100%;}
+
+
+
+/* ------------------------------- */
+
+
+
+/* pc */
+
+/* pota */
+.More_Pc_container .potaImgWrap{ position: absolute; top: 50%; right: 5%; width:19.1667vw; height: 29.0625vw; transform: translate(0, -50%); }
+.More_Pc_container .potaImg{ position: relative; width: 100%; height: 100%;}
+.More_Pc_container .potaImg img{ position: absolute; top: 0; left: 0; width: 100%;}
+
+/* mbti */
+.More_Pc_container .mbtiImgWrap{ position: absolute; top: 10%; left: 10%; width: 16.3021vw; height: 11.9792vw;}
+.More_Pc_container .mbtiImg { position: relative; width: 100%; height: 100%;}
+.More_Pc_container .mbtiImg img{ position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+
+/* git */
+.More_Pc_container .gitImgWrap{ position: absolute; top: 60%; left: 20%; width: 28.6458vw; height: 6.5104vw;}
+.More_Pc_container .gitImg{ position: relative; width: 100%; height: 100%;}
+.More_Pc_container .gitImg img{ position: absolute; top: 0; left: 0; width: 100%;}
+.More_Pc_container .gitImgWrap a{ position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%); font-size: 2.0833vw; color: #000; font-weight: 700;}
+.More_Pc_container .gitImgWrap:hover a{ color: #05F000;}
+
+/* hate */
+.More_Pc_container .hateImgWrap{ position: absolute; top: 10%; right: 35%; width: 15.6250vw; height: 13.8542vw;}
+.More_Pc_container .hateImg{ position: relative; width: 100%; height: 100%;}
+.More_Pc_container .hateImg img{ position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
