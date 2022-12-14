@@ -11,7 +11,9 @@ class Tech extends React.Component{
 
     render(){
         return(
-            <div>Sencond Page</div>
+            <div>
+              
+            </div>
         )
     }
   }
