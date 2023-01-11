@@ -90,7 +90,7 @@ return (
                   <img className="viewArrow" alt="arrow" src="../img/arrow.svg"/>
                   <img className="Arrowactive" alt="arrow" src="../img/arrowActive.svg"/>
                 </div>
-                <p>WEB POTRFOLIO</p>
+                <p>WEB PORTFOLIO</p>
             </div>
           </Link>
         </div>
