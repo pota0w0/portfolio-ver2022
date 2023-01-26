@@ -1,0 +1,5 @@
+.Top_Wrap .WorkTab{ margin-top: 0.3vw; height: 2.5000vw; min-height: 35px; max-height: 48px; border-radius: 10px 10px 0 0; }
+.Top_Wrap .WorkTab p{ position: absolute; top: 50%; left: 30%; transform: translate(-50%, -50%); color: #BEBEBE; font-family: 'Noto Sans KR', sans-serif; font-size: 1.0417vw; }
+.Top_Wrap .swiper-slide-thumb-active{ background: #3d3d3d;}
+
+.Top_Wrap .swiper-wrapper{ margin-left: 8%;}

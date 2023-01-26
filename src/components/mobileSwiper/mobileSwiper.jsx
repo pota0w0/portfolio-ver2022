@@ -10,7 +10,7 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
-import "./swiper.css"
+import "./mobileSwiper.css"
 
 export default function SwiperMenu() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);

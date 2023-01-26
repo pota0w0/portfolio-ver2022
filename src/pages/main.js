@@ -3,7 +3,7 @@ import { Mobile, PC } from "../components/layout/MediaQuery/MediaQuery.tsx"
 import { Link } from 'react-router-dom';
 import Tabmenu from "../components/menuTab/menuTab"
 import Typewriter from "../components/typewriter/typewriter"
-import SwiperMenu from "../components/swiper/swiper.jsx"
+import MobileSwiper from "../components/mobileSwiper/mobileSwiper.jsx"
 import "../styles/main.css"
 
 const Main = (props) => {
@@ -35,7 +35,7 @@ return (
           </div>
         </div>
         <div className="swiperMenu">
-          <SwiperMenu/>
+          <MobileSwiper/>
         </div>
         <div className="mobile_bottomBoxarry">
           <Link to="./work">
