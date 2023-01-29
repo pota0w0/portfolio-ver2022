@@ -10,7 +10,7 @@ const Work = (props) => {
         <>
     <div className="mobile_container">
       <Mobile>
-        
+        <div className="notice"><p>작업물은 PC로 <br/> 확인 하실 수 있습니다!</p></div>
       </Mobile>
     </div>
 

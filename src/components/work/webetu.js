@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Mobile, PC } from "../layout/MediaQuery/MediaQuery.tsx"
 import "./work.css"
 
-class Portfolio extends React.Component{
+class Webetu extends React.Component{
     constructor(props) {
       super();
   
@@ -24,7 +24,7 @@ class Portfolio extends React.Component{
               <div className="About_Pc_container">
                   <PC>
                     <div>
-                     
+                      sdfsdfs
                     </div>
                   </PC>
               </div>
@@ -34,4 +34,4 @@ class Portfolio extends React.Component{
   }
   
   
-export default Portfolio
+export default Webetu

@@ -1,5 +1,7 @@
 .Top_Wrap .WorkTab{ margin-top: 0.3vw; height: 2.5000vw; min-height: 35px; max-height: 48px; border-radius: 10px 10px 0 0; }
-.Top_Wrap .WorkTab p{ position: absolute; top: 50%; left: 30%; transform: translate(-50%, -50%); color: #BEBEBE; font-family: 'Noto Sans KR', sans-serif; font-size: 1.0417vw; }
+.WorkTab::after{content: ""; display: block; width: 0.0521vw; max-width: 1px; height: 1.0417vw; max-height: 20px; background-color: #6a6a6a; position: absolute; top: 50%; right: 0; transform: translate(0,-50%);}
+.Top_Wrap .WorkTab p{ position: absolute; top: 50%; left: 50%; width: 7.2917vw; transform: translate(-50%, -50%); color: #BEBEBE; font-family: 'Noto Sans KR', sans-serif; font-size: 1.0417vw; }
 .Top_Wrap .swiper-slide-thumb-active{ background: #3d3d3d;}
+.Top_Wrap .swiper-slide-thumb-active::after{content: ""; display: block; width: 0.1042vw; max-width: 2px; height: 1.0417vw; max-height: 20px; background-color: #000; position: absolute; top: 50%; left: -1%; transform: translate(0,-50%);}
 
 .Top_Wrap .swiper-wrapper{ margin-left: 8%;}
