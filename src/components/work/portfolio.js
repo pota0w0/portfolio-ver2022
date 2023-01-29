@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react"
 import { Mobile, PC } from "../layout/MediaQuery/MediaQuery.tsx"
-import "./work.css"
+import "./portfolio.css"
 
 class Portfolio extends React.Component{
     constructor(props) {
@@ -24,7 +24,12 @@ class Portfolio extends React.Component{
               <div className="About_Pc_container">
                   <PC>
                     <div>
-                     
+                      <div className="httpWrap">
+                        <h2 className="Webhttp">https://hahafolio.net</h2>
+                      </div>
+                      <div className="imgWrap">
+                        <img className="WorkImg" alt="work image" src="../img/work01.png"/>
+                      </div>
                     </div>
                   </PC>
               </div>

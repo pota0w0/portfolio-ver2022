@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react"
 import { Mobile, PC } from "../layout/MediaQuery/MediaQuery.tsx"
-import "./work.css"
+import "./portfolio.css"
 
 class Nalazoo extends React.Component{
     constructor(props) {
