@@ -13,22 +13,27 @@ class SevenNft extends React.Component{
 
     render(){
         return(
-            <>
-              <div className="About_Mobile_container">
-                  <Mobile>
-                             
-                  </Mobile>
-              </div>
+          <>
+          <div className="Mobile_container">
+              <Mobile>
+                         
+              </Mobile>
+          </div>
 
-              {/* pc */}
-              <div className="About_Pc_container">
-                  <PC>
-                    <div>
-                      sdfsdfs
-                    </div>
-                  </PC>
-              </div>
-            </>
+          {/* pc */}
+          <div className="Pc_container">
+              <PC>
+                <div>
+                  <div className="httpWrap">
+                    <h2 className="Webhttp">https://cryptose7en.io/</h2>
+                  </div>
+                  <div className="imgWrap">
+                    <img className="WorkImg" alt="work image" src="../img/work05.png"/>
+                  </div>
+                </div>
+              </PC>
+          </div>
+        </>
         )
     }
   }

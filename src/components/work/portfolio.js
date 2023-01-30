@@ -14,14 +14,14 @@ class Portfolio extends React.Component{
     render(){
         return(
             <>
-              <div className="About_Mobile_container">
+              <div className="Mobile_container">
                   <Mobile>
                              
                   </Mobile>
               </div>
 
               {/* pc */}
-              <div className="About_Pc_container">
+              <div className="Pc_container">
                   <PC>
                     <div>
                       <div className="httpWrap">
