@@ -1,14 +1,13 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Navigation, Thumbs } from "swiper";
-import Nalazoo from "../work/nalazoo";
-import Portfolio from "../work/portfolio";
-import Webetu from "../work/webetu";
-import WebetuShop from "../work/webetushop";
-import Sevennft from "../work/7nft";
-import Byheyday from "../work/byheyday";
-import Nikon from "../work/nikon";
-import "./workSwiper.css"
+import Portfolio from "../work/portfolio/portfolio";
+import Nalazoo from "../work/nalazoo/nalazoo";
+import Webetu from "../work/webetu/webetu"
+import WebetuShop from "../work/webetushop/webetushop"
+import Sevennft from "../work/sevennft/sevennft"
+import Byheyday from "../work/byheyday/byheyday"
+import Nikon from "../work/nikon/nikon"
 
 import 'swiper/css';
 import "swiper/css/free-mode";

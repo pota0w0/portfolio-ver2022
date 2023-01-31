@@ -1,8 +1,7 @@
 import React from "react"
 import { Mobile, PC } from "../components/layout/MediaQuery/MediaQuery.tsx"
-import { Link } from 'react-router-dom';
 import WorkSwiper from "../components/workSwiper/workSwiper"
-import "../styles/work.css"
+import "../styles/work-frame.css"
 
 
 const Work = (props) => {

@@ -1,5 +1,0 @@
-.httpWrap{ position: relative; width: 100%; height: 3.7500vw; max-height: 70px; min-height: 40px; background-color: transparent; box-sizing: border-box; }
-.httpWrap h2{ position: absolute; top: 50%; left: 11%; transform: translate(0, -50%); font-size: 1.2500vw; color: #ABABAB; font-family: 'Noto Sans KR', sans-serif; box-sizing: border-box;}
-
-.imgWrap{ position: relative; width: 100%; height: 41.5104vw; max-height: 796px; min-height: 485px; }
-.imgWrap img{ position: absolute; top: 0; width: 100%;} 

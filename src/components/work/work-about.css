@@ -1,0 +1,16 @@
+.area{ position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: clamp(700px, 51.6146vw, 990px); height: clamp(400px, 32.7604vw, 628px); font-family: 'Noto Sans KR', sans-serif; }
+
+.area h3, .area h2{ background-color: #000; color: #fff; display : flex; justify-content : center; align-items : center; font-weight: 700; }
+
+.area h3{ font-size: clamp(26px, 1.9792vw, 38px); width: 75% ; height: clamp(50px, 4.2188vw, 80px); }
+.area h2{ font-size: clamp(24px, 1.6667vw, 32px); width: clamp(250px, 18.0208vw, 345px); height: clamp(50px, 4.2188vw, 80px); max-width: 345px; position: absolute; right: 0; bottom: 0; }
+.area h2 span{position: relative; width: clamp(40px, 3.1250vw, 60px); height: clamp(40px, 3.1250vw, 60px); margin-left: 2%; }
+.textArea{ width: 100%; height: clamp(300px, 24.4271vw, 468px); max-height: 468px; border: 3px solid #000; box-sizing: border-box; display : flex; justify-content : center; align-items : center; }
+.teachWrap{ width: clamp(600px, 44.3229vw, 850px); height: clamp(50px, 3.6979vw, 70px); max-width: 850px; max-height: 70px; display: flex; justify-content: space-between; margin-bottom: 6%; }
+.teachWrap span{  border: 3px solid #000; border-radius: 100px; padding: 0 4%; box-sizing: border-box; font-size: clamp(22px, 1.5625vw, 30px); display : flex; justify-content : center; align-items : center; font-weight: 700; }
+.area .textWarp p{ margin-bottom: 4%;}
+.area .textWarp .h5{ font-size: clamp(20px, 1.4583vw, 28px); font-weight: 300;}
+.area .textWarp .h4{ font-size: clamp(24px, 1.6667vw, 32px); font-weight: 700;}
+
+.area .textWarp li{ font-size: clamp(20px, 1.4583vw, 28px); margin-bottom: 2%;}
+.area .textWarp li:last-child{ margin: 0;}

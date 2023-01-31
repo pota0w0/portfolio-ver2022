@@ -1,0 +1,30 @@
+.notice{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.notice p{ font-size: 1.5em; text-align: center;}
+
+.Work_Area{ position: relative; height: 100vh; box-sizing: border-box; }
+.Work_Wrap{ position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: clamp(1000px, 91.0938vw, 1620px); height: clamp(570px, 51.5625vw, 920px); outline: 3px solid #000; border-radius: 15px 15px 0 0; } 
+
+.icon_Wrap{ position: absolute; top: 1.8%; left: 1.3%; z-index: 100; width: clamp(56px, 4.3750vw, 84px); height: clamp(12px, 0.9375vw, 18px); display: flex; justify-content: space-between; }
+.icon{ width: clamp(12px, 0.9375vw, 18px); height: clamp(12px, 0.9375vw, 18px); background-color: #3d3d3d; border-radius: 50%; box-sizing: border-box;}
+
+.Top_Wrap{ position: relative; background: #000; width: 100%; border-radius: 10px 10px 0 0; box-sizing: border-box; }
+
+.Bottom_Area{ width: 100%; height: 100%; }
+
+.fix{ width: 100%; height: clamp(50px, 4.0104vw, 76px); background-color: #3d3d3d; box-sizing: border-box; position: fixed; top: 5.3%; z-index: 1;}
+
+.fixIconWrap{ position: absolute; top: 50%; left: 1.3%; transform: translate(0,-50%); z-index: 100; width: clamp(58px, 5.2083vw, 100px); max-width: 100px; height: clamp(12px, 1.0417vw, 20px); display: flex; justify-content: space-between;}
+.fixIcon{ position: relative; width: clamp(12px, 1.0417vw, 20px); height: clamp(12px, 1.0417vw, 20px); }
+.fixIcon img{ position: absolute; top: 0; width: 100%;}
+.fixName{ width: clamp(850px, 70.3125vw, 1350px); height: clamp(30px, 2.6042vw, 50px); background-color: #252525; position: absolute; top: 50%; left: 9%; transform: translate(0,-50%); border-radius: 100px; }
+
+/* Swiper */
+
+.Top_Wrap .WorkTab{ display : flex; justify-content : left; align-items : center; margin-top: 0.3vw; height: clamp(30px, 2.5000vw, 48px); border-radius: 10px 10px 0 0; padding-left: 1.5%; box-sizing: border-box; }
+.WorkTab::after{content: ""; display: block; width: clamp(0.5px, 0.0521vw, 1px); height: clamp(12px, 1.0417vw, 20px); background-color: #6a6a6a; position: absolute; top: 50%; right: 0; transform: translate(0,-50%);}
+.Top_Wrap .WorkTab p{ color: #BEBEBE; font-family: 'Noto Sans KR', sans-serif; font-size: clamp(12px, 1.0417vw, 20px); }
+.Top_Wrap .swiper-slide-thumb-active{ background: #3d3d3d;}
+.Top_Wrap .swiper-slide-thumb-active::after{content: ""; display: block; width: clamp(0.5px, 0.1042vw, 2px); max-width: 2px; height: clamp(14px, 11.0417vw, 20px); background-color: #000; position: absolute; top: 50%; left: -1%; transform: translate(0,-50%);}
+
+.Top_Wrap .swiper-wrapper{ margin-left: 8%;}
+
