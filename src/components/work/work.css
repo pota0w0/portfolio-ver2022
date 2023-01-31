@@ -1,7 +1,7 @@
 .httpWrap{ position: relative; width: 100%; height: clamp(50px, 3.6458vw, 70px); background-color: transparent; box-sizing: border-box; }
 .httpWrap h2{ position: absolute; top: 50%; left: 11%; transform: translate(0, -50%); font-size: clamp(16px, 1.2500vw, 24px); color: #ABABAB; font-family: 'Noto Sans KR', sans-serif; box-sizing: border-box;}
 
-.imgWrap{ position: relative; width: 100%; height: clamp(485px, 36.4583vw, 700px); }
+.imgWrap{ position: relative; width: 100%; height: clamp(485px, 36.4583vw, 700px); outline: 2px solid #000; }
 .imgWrap img{ position: absolute; top: 0; width: 100%; height: 100%; } 
 
 
