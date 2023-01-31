@@ -19,7 +19,7 @@ function Nalazoo (){
                 <div>
                   
                   <div className="httpWrap">
-                    <h2 className="Webhttp">https://webetu.co.kr/main</h2>
+                    <h2 className="Webhttp">https://cryptose7en.io/</h2>
                   </div>
                   <div className="imgWrap">
                     <Modal

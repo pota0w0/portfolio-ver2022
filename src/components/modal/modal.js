@@ -17,10 +17,10 @@ function Accordion({ title, content }) {
             right:"2%",
             zIndex:"20",
             backgroundColor: "#000",
-            width: "clamp(140px, 13.0208vw, 280px)",
-            height:"clamp(60px, 5.2083vw, 100px)",
+            width: "clamp(120px, 10.4167vw, 200px)",
+            height:"clamp(55px, 4.1667vw, 80px)",
             color: "#fff",
-            fontSize:"clamp(24px, 2.5vw, 48px)",
+            fontSize:"clamp(24px, 1.8750vw, 36px)",
             fontWeight:"700"
         }}
         >

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "../work-about.css"
 
 function Nalazooabout() {
-    const url = "https://m.webetu.co.kr/main"
+    const url = "https://cryptose7en.io/"
 
   return (
     <>
