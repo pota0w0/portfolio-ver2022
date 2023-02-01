@@ -15,12 +15,13 @@ class About extends React.Component{
             <>
             <Mobile>
               <div className="About_Mobile_container">
-                  
-                      <h2>Who i ammm...</h2>
-                      <div className="m_AboutTextWrap">
-                        <div className="m_AboutImg">
-                          <img alt="me!!" src="../img/about_me_moblie.svg"/>
-                        </div>
+                  <div className="aboutArea">
+                    <h2>Who i ammm...</h2>
+                    <div className="AboutTextArea">
+                      <div className="AboutImg">
+                        <img alt="me!!" src="../img/about_me_moblie.svg"/>
+                      </div>
+                      <div className="AboutTextWrap">
                         <p>
                           사용자 친화적인 개발자<br/>
                           최신 트렌드를 중요시 하는 개발자<br/>
@@ -29,8 +30,10 @@ class About extends React.Component{
                           새로운 기술들을 습득하는 개발자
                         </p>
                       </div>
-                      <h2>IT'S ME! Park Haryun!</h2>              
-                  
+                      
+                    </div>
+                    <h3>IT'S ME! <br/> Park Haryun!</h3>
+                  </div>
               </div>
             </Mobile>
               {/* pc */}

@@ -13,7 +13,7 @@
 .mobile_container .welcomeBox { position: relative; width: 100%; height: 66.6667vw; padding-top: 19.2308vw; box-sizing: border-box;}
 .mobile_container .welcomeBox p{ position: absolute; top: 5%; left: 50%; transform: translate(-50%, 0); z-index: 1; font-size: 23.0769vw; font-weight: 700; }
 .mobile_container .welcomeBox .bgImg{ position: relative; width: 100%;  height: 47.4359vw; border-bottom: 3px solid #000;}
-.mobile_container .welcomeBox .bgImg img{ position: absolute; height: 100%; }
+.mobile_container .welcomeBox .bgImg img{ position: absolute; width: 100%; bottom: 0; }
 
 .mobile_container .swiperMenu{ width: 100%; height: 117.9487vw; border-bottom: 3px solid #000;} 
 
