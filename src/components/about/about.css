@@ -7,9 +7,11 @@
 .About_Mobile_container .m_AboutTextWrap p span{ font-weight: 700; line-height: 7.6923vw; }
 
 /* pc */
-.AboutWrap{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; justify-content: space-between; width: 85%; height: 21.6146vw; }
-.AboutImg{ position: relative; width: 19.0104vw; height: 100%; margin-right: 5%;}
-.AboutImg img{ position: absolute; top: 0; left: 0; width: 100%;}
-.AboutTextWrap{ width: 55%;}
-.AboutTextWrap h2{ font-size: 4.1667vw; font-weight: 700; margin-bottom: 40px;}
-.AboutTextWrap p{ font-size: 1.4583vw; line-height: 1.56em;}
+.About_Pc_container{ display: flex; justify-content: center; width: 100%; height: 100%; align-items: center; }
+.AboutImg{ position: relative; width: 29.6747%; height: 69.1666%; margin-right: 5%;}
+.AboutImg img{ position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.aboutArea{ display: flex; justify-content: center; align-items: center;  width: 48.7804%; height: 88.3333%; border: 3px solid #000; }
+.AboutTextWrap { text-align: center; }
+.AboutTextWrap p{ font-size: clamp( 20px, 1.4583vw, 28px); line-height: clamp(32px , 2.0833vw, 40px); font-weight: 700; margin: 8% 0;}
+.AboutTextWrap h2{ font-size: clamp(60px , 3.6458vw, 70px); font-weight: 700;}
+.AboutTextWrap h3{ font-size: clamp(40px, 2.8646vw, 55px); font-weight: 700;}

@@ -7,16 +7,16 @@ import Nav from "./nav/nav"
 function Header(props) {
     return(
         <>
-            <div className="mobile_container">
-                <Mobile>
+            <Mobile>
+                <div className="mobile_nav">
                     <Nav/>
-                </Mobile>
-            </div>
-            <div className="pc_container">
-                <PC>
+                </div>
+            </Mobile>
+            <PC>
+                <div className="pc_nav">
                     <Nav/>
-                </PC>
-            </div>
+                </div>
+            </PC>
         </>
     )
 }

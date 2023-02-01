@@ -27,16 +27,17 @@ export default class MenuTab extends React.Component{
     render(){
         return(
         <>
-            <div className="tabArry">
-            <ul className="tabs">
-                <li className={`${this.state.menu === 0? 'active': ''}`} onClick={() => this.changeMenu(0)}>ABOUT ME</li>
-                <li className={`${this.state.menu === 1? 'active': ''}`} onClick={() => this.changeMenu(1)}>TECH SKILL</li>
-                <li className={`${this.state.menu === 2? 'active': ''}`} onClick={() => this.changeMenu(2)}>AND...</li>
-            </ul>
-            </div>
             <div className="contentArea">
-            {menuList[this.state.menu]}
+                {menuList[this.state.menu]}
             </div>
+            <div className="tabArry">
+                <ul className="tabs">
+                    <li className={`${this.state.menu === 0? 'active': ''}`} onClick={() => this.changeMenu(0)}>ABOUT ME</li>
+                    <li className={`${this.state.menu === 1? 'active': ''}`} onClick={() => this.changeMenu(1)}>TECH SKILL</li>
+                    <li className={`${this.state.menu === 2? 'active': ''}`} onClick={() => this.changeMenu(2)}>AND...</li>
+                </ul>
+            </div>
+            
         </>
         )
     }
