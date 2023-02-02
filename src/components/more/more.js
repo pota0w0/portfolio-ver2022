@@ -42,19 +42,20 @@ class More extends React.Component{
                   {/* pota 이미지 */}
                   <div className="m_potaImgWrap">
                     <div className="m_potaImg">
-                      <img alt="pota" src="../img/and_pota_mobile.svg"/>
+                      <img alt="pota" src="../img/and_pota_mobile.png"/>
                     </div>
                   </div>
                 </Mobile>
             </div>
 
             {/* pc */}
-            <div className="More_Pc_container">
-                <PC>
+            <PC>
+              <div className="More_Pc_container">
+                <div className="imgArea">
                   {/* mbti 이미지 */}
                   <div className="mbtiImgWrap">
                     <div className="mbtiImg">
-                      <img alt="mbti" src="../img/and_mbti.svg"/>
+                      <img alt="mbti" src="../img/and_mbti.png"/>
                     </div>
                   </div>
                   {/* git 링크&이미지 */}
@@ -69,18 +70,18 @@ class More extends React.Component{
                   {/* hate 이미지 */}
                   <div className="hateImgWrap">
                     <div className="hateImg">
-                      <img alt="hate" src="../img/and_hate.svg"/>
+                      <img alt="hate" src="../img/and_hate.png"/>
                     </div>
                   </div>
-                  {/* pota 이미지 */}
-                  <div className="potaImgWrap">
-                    <div className="potaImg">
-                      <img alt="pota" src="../img/and_pota.png"/>
-                    </div>
+                </div>
+                {/* pota 이미지 */}
+                <div className="potaImgWrap">
+                  <div className="potaImg">
+                    <img alt="pota" src="../img/and_pota.png"/>
                   </div>
-                    
-                </PC>
-            </div>
+                </div>
+              </div>
+            </PC>
           </>
         )
     }
