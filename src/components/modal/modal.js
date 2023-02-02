@@ -14,7 +14,7 @@ function Accordion({ title, content }) {
           style={{
             position: "absolute",
             bottom:"2%",
-            right:"2%",
+            left:"2%",
             zIndex:"20",
             backgroundColor: "#000",
             width: "clamp(120px, 10.4167vw, 200px)",
