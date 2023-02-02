@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Navigation, Thumbs } from "swiper";
-import About from "../about/about";
-import Tech from "../tech/tech";
-import More from "../more/more";
+import About from "../main/about/about";
+import Tech from "../main/tech/tech";
+import More from "../main/more/more";
 
 import 'swiper/css';
 import "swiper/css/free-mode";

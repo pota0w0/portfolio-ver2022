@@ -1,0 +1,26 @@
+/* mobile */
+.m_TechWrap{ width: 100%; height: 100vw; padding: 5%; box-sizing: border-box;}
+.m_TechFront, .m_TechUIUX, .m_TechVersion { width: 100%; height: 31%; padding: 2%; border: 3px solid #000; box-sizing: border-box; margin-bottom: 4%;}
+.m_TechText{ width: 100%; height: 8vw; border-bottom: 3px solid #000; box-sizing: border-box;}
+.m_TechText h2{ font-size: 5.1282vw;}
+.m_TechImg{ position: relative; width: 100%; margin-top: 3%;}
+.m_TechImg img{ position: absolute; width: 100%;}
+.m_TechVersion .m_TechImg{ width: 70%;}
+
+
+/* pc */
+.Tech_Pc_container{ display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;}
+.Tech_Pc_container .TechWrap{ display: flex; justify-content: space-between; width: 97.5609%; height: 24.4792vw; }
+.Tech_Pc_container .TechFront, .Tech_Pc_container .TechUIUX, .Tech_Pc_container .TechVersion{ position: relative; width: 31.6666%; border: 3px solid #000; box-sizing: border-box;}
+.Tech_Pc_container .TechFront, .Tech_Pc_container .TechUIUX{ height: 100%; }
+.Tech_Pc_container .TechVersion{ height: 70.2127%;}
+
+.TechWrap h2{ position: relative; width: 90%; height: 18.0851%; display: flex; justify-content: left; align-items: center; font-size: 1.9792vw; margin: 0 auto; }
+.TechVersion h2 { height: 25.7575%; }
+
+.TechWrap h2::after{ position: absolute; bottom: 0; content:""; width: 100%; height: 3px; background: #000;}
+
+.TechImg{ position: relative; margin: 0 auto; width: 78.9473%; margin-top: 15px;}
+.TechImg img{ position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.TechVersion .TechImg{ height: 60.6060%;}
+.TechUIUX .TechImg, .TechFront .TechImg{ height: 74.4680%;}

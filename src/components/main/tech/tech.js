@@ -1,21 +1,12 @@
 import React, { Component } from "react";
-import { Mobile, PC } from "../layout/MediaQuery/MediaQuery.tsx"
+import { Mobile, PC } from "../../layout/MediaQuery/MediaQuery.tsx"
 import "./tech.css"
 
-class Tech extends React.Component{
-    constructor(props) {
-      super();
-  
-      this.state = {
-        menu: 0,
-      };
-    }
-
-    render(){
+function Tech (){
         return(
           <>
-          <div className="Tech_Mobile_container">
-              <Mobile>
+          <Mobile>
+            <div className="Tech_Mobile_container">
                   <div className="m_TechWrap">
                     <div className="m_TechFront">
                       <div className="m_TechText">
@@ -43,46 +34,36 @@ class Tech extends React.Component{
                     </div>
 
                   </div>
-              </Mobile>
-          </div>
+            </div>
+          </Mobile>
 
           {/* pc */}
-          <div className="Tech_Pc_container">
-              <PC>
+          <PC>
+            <div className="Tech_Pc_container">
                 <div className="TechWrap">
                   <div className="TechFront">
-                    <div className="Tech_Text_Wrap">
-                      <h2>Frontend</h2>
-                    </div>
-                      <div className="TechImgWrap"> <div className="TechImg">
-                        <img alt="Fontend!!" src="../img/tech_front.svg"/>
-                      </div>
+                    <h2 className="Tech_Text">Frontend</h2>
+                    <div className="TechImg">
+                      <img alt="Fontend!!" src="../img/tech_front.png"/>
                     </div>
                   </div>
                   <div className="TechUIUX">
-                    <div className="Tech_Text_Wrap">
-                      <h2>UIUX Desigh</h2>
-                    </div>
-                      <div className="TechImgWrap"> <div className="TechImg">
-                        <img alt="UIUX!!" src="../img/tech_uiux.svg"/>
-                      </div>
+                    <h2 className="Tech_Text">UIUX Desigh</h2>
+                    <div className="TechImg">
+                      <img alt="UIUX!!" src="../img/tech_uiux.png"/>
                     </div>
                   </div>
                   <div className="TechVersion">
-                    <div className="Tech_Text_Wrap">
-                      <h2>Version Control</h2>
-                    </div>
-                      <div className="TechImgWrap"> <div className="TechImg">
-                        <img alt="Version Control!!" src="../img/tech_version.svg"/>
-                      </div>
+                    <h2 className="Tech_Text">Version Control</h2>
+                    <div className="TechImg">
+                      <img alt="Version Control!!" src="../img/tech_version.png"/>
                     </div>
                   </div>
                 </div>
-              </PC>
-          </div>
+            </div>
+          </PC>
         </>
         )
-    }
   }
   
   

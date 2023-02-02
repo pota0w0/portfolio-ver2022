@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import About from "../about/about";
-import Tech from "../tech/tech";
-import More from "../more/more";
+import About from "../main/about/about";
+import Tech from "../main/tech/tech";
+import More from "../main/more/more";
 import "./menuTab.css";
 
 

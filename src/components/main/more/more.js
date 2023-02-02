@@ -1,23 +1,14 @@
 import React, { Component } from "react";
-import { Mobile, PC } from "../layout/MediaQuery/MediaQuery.tsx"
+import { Mobile, PC } from "../../layout/MediaQuery/MediaQuery.tsx"
 
 import "./more.css"
 
-class More extends React.Component{
-    constructor(props) {
-      super();
-  
-      this.state = {
-        menu: 0,
-      };
-    }
-
-    render(){
+function More() {
         return(
           <>
           {/* mobile */}
-            <div className="More_Mobile_container">
-                <Mobile>
+            <Mobile>
+             <div className="More_Mobile_container">
                   {/* git 링크&이미지 */}
                   <div className="m_gitImgWrap">
                     <div className="m_gitImg">
@@ -45,8 +36,8 @@ class More extends React.Component{
                       <img alt="pota" src="../img/and_pota_mobile.png"/>
                     </div>
                   </div>
-                </Mobile>
-            </div>
+              </div>
+            </Mobile>
 
             {/* pc */}
             <PC>
@@ -84,7 +75,6 @@ class More extends React.Component{
             </PC>
           </>
         )
-    }
   }
   
   

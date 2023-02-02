@@ -1,16 +1,8 @@
 import React, { Component } from "react";
-import { Mobile, PC } from "../layout/MediaQuery/MediaQuery.tsx"
+import { Mobile, PC } from "../../layout/MediaQuery/MediaQuery.tsx"
 import "./about.css"
 
-class About extends React.Component{
-    constructor(props) {
-      super();
-  
-      this.state = {
-        menu: 0,
-      };
-    }
-    render(){
+function About (){
         return(
             <>
             <Mobile>
@@ -60,7 +52,6 @@ class About extends React.Component{
               </PC>
             </>
         )
-    }
   }
   
   
